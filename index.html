@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meghana's Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900" data-aos-easing="ease-out-cubic" data-aos-duration="1200">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" data-aos="fade-down">
+        <a class="navbar-brand text-lg font-bold text-primary" href="#">M. Meghana</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link text-highlight" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-highlight" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link text-highlight" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-highlight" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="text-center py-16 bg-gradient-to-r from-purple-400 to-blue-500 text-white hero-glow" data-aos="zoom-in">
+        <div class="container">
+            <h1 class="text-4xl font-bold">Hello, I'm <span class="text-accent">M. Meghana</span></h1>
+            <p class="text-xl mt-4">Aspiring Software Engineer & <span class="text-primary">Data Science</span> Enthusiast</p>
+            <p class="mt-2">I enjoy painting, classical dance, and likes <span class="text-highlight">Nature,Loves to listen music</span>!</p>
+        </div>
+    </section>
+    <section id="about" class="py-16 bg-custom-primary" data-aos="fade-left">
+        <div class="container text-center">
+            <h2 class="text-3xl font-bold text-primary mb-8">About Me</h2>
+            <p class="text-gray-700">I’m a third-year <span class="text-highlight">B.Tech</span> student with a passion for data science and software engineering. I’ve completed an internship with Coincent, where I worked on <span class="text-accent">Hate Speech Detection</span> and a <span class="text-accent">Surprise House case study</span> project.</p>
+        </div>
+    </section>
+    <section id="skills" class="py-16 bg-gradient-to-r from-gray-200 to-gray-100" data-aos="fade-right">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-center text-primary mb-8">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-card p-6">
+                        <h3 class="text-lg font-semibold text-highlight">Programming</h3>
+                        <p class="text-gray-800">Python, AWS, Data Science</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-card p-6">
+                        <h3 class="text-lg font-semibold text-highlight">Frameworks</h3>
+                        <p class="text-gray-800">Bootstrap, Tailwind CSS</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bg-card p-6">
+                        <h3 class="text-lg font-semibold text-highlight">Tools</h3>
+                        <p class="text-gray-800">Git, VS Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="py-16 bg-custom-secondary" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-3xl font-bold text-center text-primary mb-8">Projects</h2>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="bg-card p-6">
+                        <h3 class="text-xl font-semibold text-highlight">Hate Speech Detection</h3>
+                        <p class="text-gray-700">Machine learning model to detect hate speech in text. Built using Python and NLP techniques.</p>
+                        <a href="#" class="text-primary">View Project</a>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="bg-card p-6">
+                        <h3 class="text-xl font-semibold text-highlight">Surprise House Case Study</h3>
+                        <p class="text-gray-700">Data analysis project involving statistical analysis and insights generation.</p>
+                        <a href="#" class="text-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="py-16 bg-gray-200" data-aos="fade-up">
+        <div class="container text-center">
+            <h2 class="text-3xl font-bold text-primary mb-8">Contact Me</h2>
+            <form class="mx-auto w-full md:w-1/2 lg:w-1/3 bg-white p-8 rounded-lg shadow">
+                <div class="mb-4">
+                    <label for="name" class="block text-left text-highlight">Name</label>
+                    <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-left text-highlight">Email</label>
+                    <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-left text-highlight">Message</label>
+                    <textarea id="message" class="w-full border border-gray-300 p-2 rounded" required></textarea>
+                </div>
+                <button type="submit" class="w-full py-2 mt-4 bg-primary text-white font-semibold rounded-lg shadow-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer class="py-4 bg-gray-900 text-center text-white">
+        <p>&copy; 2024 M. Meghana. All Rights Reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
